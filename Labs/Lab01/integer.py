@@ -3,5 +3,7 @@ total = 0
 integers.append(6)
 for x in integers:
     total += x
-print (total)
 print(sum(integers))
+print (total)
+
+
