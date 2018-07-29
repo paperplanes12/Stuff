@@ -1,11 +1,10 @@
 def calculate(s):
     
-    if len(sys.argv) is not 1:
-        None
+    for c in s:
+        if c.isalpha(): 
+            return None
     else:
-        print(eval(int(sys.argv)))
-    
-    pass
+        return eval(s)
     
 if __name__ == '__main__':
     import doctest
