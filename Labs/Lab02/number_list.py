@@ -1,10 +1,6 @@
 def find_reverse(numbers):
     #TODO: find the reverse of the list
-    
-    numbers.reverse()
-    
-    return numbers
-    
+    return list(reversed(numbers))
     #pass
 
 def find_max(numbers):
