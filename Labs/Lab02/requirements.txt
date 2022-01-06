@@ -1,5 +1,5 @@
 attrs==17.4.0
-celery==4.1.0
+celery==5.2.2
 pluggy==0.6.0
 py==1.5.2
 pytest==3.4.2
